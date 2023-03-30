@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1> My Quiz App !</h1>
+       <div class="main">
+           <div class="box" id="box_body">
+               <h2><span id="question"></span></h2>
+               <div class="row">
+                   <input class="options" type="radio" id="option1" name="options">
+                   <label for="option1"></label>
+                </div>
+                <div class="row">
+                   <input class="options" type="radio" id="option2" name="options">
+                   <label for="option2"></label>
+                </div>
+                <div class="row">
+                   <input class="options" type="radio" id="option3" name="options">
+                   <label for="option3"></label>
+                </div>
+                <div class="row">
+                   <input class="options" type="radio" id="option4" name="options">
+                   <label for="option4"></label>
+                </div>
+                <div class="row">
+                    <button id="submit" onclick="submitQuiz()" type="submit">Submit</button>
+                </div>
+               </div>
+           </div>
+       </div>
+        <script src="script.js"></script>
+    </body>
+</html>
